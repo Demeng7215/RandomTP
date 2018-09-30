@@ -1,0 +1,30 @@
+# Configuration file for RandomTP by Demeng7215.
+
+# The message that will be sent if the console attempts to execute a RandomTP command.
+console: "&cERROR: You must be a player to do that!"
+
+# The name of the "void world".
+void_world: "void"
+
+# THe name of the "normal world".
+normal_world: "world"
+
+# The positions of the 2 corners of the area where players can be teleported to.
+corner1:
+  x: -100
+  y: 250
+  z: -100
+corner2:
+  x: 100
+  y: 150
+  z: 100
+
+# The message that will be sent if a player is successfully teleported.
+# You can use the placeholders {x}, {y}, and {z}.
+teleported: "&2You have been teleported to &2X: &a{x} &2Y: &a{y} &2Z: &a{z}"
+
+# This message will be sent if a player tries to RandomTP in neither normal world or void world.
+fail_teleport: "&cCan not teleport! Make sure you are in the correct world."
+
+
+# Config Version 1.0.0 | 1

@@ -1,0 +1,9 @@
+name: RandomTP
+version: 1.0.0
+author: Demeng7215
+main: me.demeng7215.randomtp.RandomTP
+
+commands:
+  randomteleport:
+    description: Main command for RandomTP.
+    aliases: [randomtp,rtp,wild]
